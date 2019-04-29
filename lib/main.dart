@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       withZoom: true,
       withLocalStorage: true,
-      hidden: true,
+      hidden: false,
       initialChild: Container(
         color: Colors.redAccent,
         child: const Center(
